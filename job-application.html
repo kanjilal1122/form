@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Job Application Form</title>
+<!-- meta code start here -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta charset="utf-8">
+<!-- style code here -->
+  <style>
+      body{
+          background-color: darkgray;
+      }
+  .button{
+      background-color: #FF4B1F;
+      color: #FFFFFF;
+      border-radius:10px;
+      text-align: center;
+      padding:10px 30px;
+      display: inline-block;
+  }
+  .btn-submit{
+      background-color: lightblue;
+      color: #FFFFFF;
+      border-radius:10px;
+      text-align: center;
+      padding:10px 30px;
+      display: inline-block;
+  }
+  .btn-submit:hover
+  {
+      background-color: #99FF00;
+  }
+   .button:hover
+  {
+      background-color:slategrey;
+  }
+  table{
+      border: 0;
+      border-collapse: collapse;
+      background-color: lightgrey;
+      width: 50%;
+      height: 100;
+  }
+h4{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ </style>
+
+
+
+ </head>
+
+<body >
+
+    <CENTER>
+        <p>&nbsp;
+        <form  method=post  name="frm" action="#">
+    <table>
+    
+    <tr>
+        <td colspan=2 ><h4>job Application form</h4></td>
+
+    </tr>
+    <tr>
+        <td><p></td>
+    </tr>
+    <tr>
+        <td><b>&nbsp;First name:</b><br><center><input type="text" placeholder="First name" name="fstnm" required><p></td>
+        <td><b>&nbsp;Last name:</b><br><center><input type="text" placeholder="Last name" name="lstnm" required><p></td>
+
+    </tr>
+
+    <tr>
+         <td><b>&nbsp;Email ID:</b><br><center><input type="email"  placeholder="example@gmail.com" name="email"  required><p></td>
+         <td><b>&nbsp;Mob no:</b><br><center><input type="tel" placeholder="Enter your Mob no" name="mbno" required><p></td>
+    </tr>
+    <tr>
+        <td><b>&nbsp;Age:</b><br><center><input type="number" name="age" required><p></td>
+        <td><b>&nbsp;DOB:</b><br><center><input type="DATE" name="date" required style="width:56%"><p></td>
+    </tr>
+    <tr>
+        <td colspan="2" ><b>&nbsp;Gender:</b><br>
+    <!-- add center here -->
+       <input type="radio" name="gen" id="mal" >Male
+        <input type="radio" name="gen" >Female
+        <input type="radio" name="gen" >Others
+        <p>
+        </td>
+    </tr>
+        <tr>
+            <td colspan=2><b>&nbsp;Country:</b><br>
+            <!-- <center> -->
+            <select name="country" style="width:80%;">
+                 <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="Canada">Canada</option>
+                <option value="Africa"> Africa</option>
+                <option value="Bangladesh">Bengladesh</option>
+                <option value="Austrolia">Australia</option>
+                <option value="Japan">Japan</option>
+            </select>
+            <p>
+            </td>
+        </tr>
+        <tr>
+            <td><b>&nbsp;State:</b><br><center><input type="text" name="State" ><p></td>
+            <td><b>&nbsp;City:</b><br><center><input type="text" name="city" ><p></td>
+        </tr>
+        <tr>
+
+            <td colspan=2><b>&nbsp;Select your Intrested:</b><br>
+            <center>
+            <select name="position" style="width:80%;" required>
+                <option >Machine Learning </option>
+                 <option value="fweb">Front-end Web Developer</option>
+                 <option value="bweb">Back-end Web Developer</option>
+                <option value="data">Data Analyst</option>
+                <option value="hr">Human Resource</option>
+                <option value="finance">Finance</option>
+                <option>
+            </select>
+            <p>
+            </td>
+
+        </tr>
+        <tr>
+            <td colspan=2 ><b>&nbsp;Address:</b><br><center><input type="text" name=address size=55 align=center value="Address"><p></td>
+        </tr>
+        <tr>
+            <td colspan=2><b>&nbsp;Additional Info:</b><br>
+            <center>
+            <textarea name="info" rows=4 cols=57>&nbsp;Additional Info</textarea><p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan=2 align="center"><b>&nbsp;Add your CV/Resume:</b><input type="file" name="file" required><p></td>
+        </tr>
+        <tr>
+        <td align="center"><input type="button"  class="button" value="Reset"  ><p></td>
+        <td align="center"><input type="submit" class="btn-submit" value="Submit"   ><p></td>
+
+        </tr>
+    </table>
+        </form>
+        <p>&nbsp;
+        <font color="blue">&copy;2021 job Application Form Learnovate Ecommerce . All Rights Reserved | Design by Ajay.</font>
+        </p>
+    </CENTER>
+</body>
+</html>
